@@ -388,13 +388,15 @@ footer h3 {
         margin-left: 5px;
     }
 
-    /* .sec1{
-        position: relative;
+    .sec1-image{
+        margin-left: 60%;
     }
 
-    .sec1 img{
-        right: 0;
-    } */
+    .sec1-content{
+        margin-top: -25%;
+        width: 60%;
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -405,5 +407,15 @@ footer h3 {
 
     .sec3{
         margin: 20px;
+    }
+
+    .sec1-image{
+        margin-left: 60%;
+    }
+
+    .sec1-content{
+        margin-top: -25%;
+        width: 60%;
+        margin-left: 10px;
     }
 }

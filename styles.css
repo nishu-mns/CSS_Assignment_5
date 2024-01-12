@@ -258,11 +258,10 @@ button:hover i {
 }
 
 .sec3 {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     font-size: 12px;
     align-items: center;
+    margin: 2px auto;
 }
 
 .card {
@@ -271,6 +270,7 @@ button:hover i {
     padding: 10px;
     margin-top: 15px;
     border-radius: 5px;
+    margin-left: 15px;
     transition: all 0.3s ease-out;
 }
 
@@ -325,31 +325,31 @@ button:hover i {
 }
 
 .music:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     background-color: rgb(255, 108, 247);
     border: 2px solid rgb(255, 108, 247);
 }
 
 .downloads:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     background-color: rgb(15, 165, 131);
     border: 2px solid rgb(15, 165, 131);
 }
 
 .pictures:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     background-color: rgb(255, 195, 27);
     border: 2px solid rgb(255, 195, 27);
 }
 
 .connect:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     background-color: rgb(95, 139, 255);
     border: 2px solid rgb(95, 139, 255);
 }
 
 .location:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     background-color: rgb(81, 81, 81);
     border: 2px solid rgb(81, 81, 81);
 }
@@ -362,8 +362,6 @@ footer {
     margin-top: 30px;
     background-color: #494949;
     margin-bottom: -16px;
-    display: flex;
-    flex-direction: column;
     color: #a9a9a9;
     font-size: 12px;
 }
@@ -384,8 +382,28 @@ footer h3 {
     margin: 10px;
 }
 
-/* @media only screen and (orientation: Portrait) {
-    .sec1 img{
-        float: left;
+@media only screen and (min-width: 600px) {
+    .card{
+        width: 30%;
+        margin-left: 5px;
     }
-} */
+
+    /* .sec1{
+        position: relative;
+    }
+
+    .sec1 img{
+        right: 0;
+    } */
+}
+
+@media only screen and (min-width: 768px){
+    .card{
+        width: 15%;
+        margin-left: 10px;
+    }
+
+    .sec3{
+        margin: 20px;
+    }
+}
